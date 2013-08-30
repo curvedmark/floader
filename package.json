@@ -1,0 +1,32 @@
+{
+  "name": "floader",
+  "version": "1.0.0",
+  "description": "File reading utility, Browserify aware",
+  "main": "lib/loader.js",
+  "directories": {
+  	"lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curvedmark/floader.git"
+  },
+  "keywords": [
+    "file",
+    "fs",
+    "filesystem",
+    "xhr"
+  ],
+  "author": "Glen Huang <curvedmark@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curvedmark/floader/issues"
+  },
+  "devDependencies": {
+    "mocha": "1.x"
+  },
+  "browser": "lib/xhr-loader.js"
+}
