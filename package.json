@@ -1,10 +1,10 @@
 {
   "name": "floader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File reading utility, Browserify aware",
   "main": "lib/loader.js",
   "directories": {
-  	"lib": "lib",
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
